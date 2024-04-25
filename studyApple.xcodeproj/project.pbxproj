@@ -15,6 +15,7 @@
 		55B6DCB72BDA5404003C367A /* studyAppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6DCB62BDA5404003C367A /* studyAppleTests.swift */; };
 		55B6DCC12BDA5404003C367A /* studyAppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6DCC02BDA5404003C367A /* studyAppleUITests.swift */; };
 		55B6DCC32BDA5404003C367A /* studyAppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6DCC22BDA5404003C367A /* studyAppleUITestsLaunchTests.swift */; };
+		55B6DCD02BDA5439003C367A /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B6DCCF2BDA5439003C367A /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		55B6DCBC2BDA5404003C367A /* studyAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B6DCC02BDA5404003C367A /* studyAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyAppleUITests.swift; sourceTree = "<group>"; };
 		55B6DCC22BDA5404003C367A /* studyAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55B6DCCF2BDA5439003C367A /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		55B6DCA22BDA5401003C367A /* studyApple */ = {
 			isa = PBXGroup;
 			children = (
+				55B6DCCF2BDA5439003C367A /* ImagePickerView.swift */,
 				55B6DCA32BDA5401003C367A /* studyAppleApp.swift */,
 				55B6DCA52BDA5401003C367A /* ContentView.swift */,
 				55B6DCA72BDA5401003C367A /* Item.swift */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B6DCD02BDA5439003C367A /* ImagePickerView.swift in Sources */,
 				55B6DCA62BDA5401003C367A /* ContentView.swift in Sources */,
 				55B6DCA82BDA5401003C367A /* Item.swift in Sources */,
 				55B6DCA42BDA5401003C367A /* studyAppleApp.swift in Sources */,
@@ -429,6 +433,8 @@
 				DEVELOPMENT_TEAM = 28W8CM67NV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "require camera device access for study";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "require microphone device access for study";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +464,8 @@
 				DEVELOPMENT_TEAM = 28W8CM67NV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "require camera device access for study";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "require microphone device access for study";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

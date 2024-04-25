@@ -25,7 +25,7 @@ struct studyAppleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImagePickerView()
         }
         .modelContainer(sharedModelContainer)
     }
